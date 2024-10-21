@@ -12,11 +12,12 @@
 
 <body>
     <div class="table-fixed-head">
-
         <table id="time-table">
-            <tbody id="table-body">
-                <!-- hier erscheint die Tabelle -->
-            </tbody>
+            <caption>
+                <h1>Stationboard <span id="station-name"></span></h1>
+                <input type="text" id="station" />
+                <button id="submit">ok</button>
+            </caption>
             <thead>
                 <tr>
                     <th>Uhrzeit</th>
@@ -24,13 +25,10 @@
                     <th>Gleis</th>
                 </tr>
             </thead>
-            <caption>
-                <h1>Stationboard <span id="stationname"></span></h1>
-                <input type="text" id="station" />
-                <button>ok</button>
-            </caption>
+            <tbody id="table-body">
+                <!-- Hier erscheint die Tabelle -->
+            </tbody>
         </table>
-
     </div>
 </body>
 
